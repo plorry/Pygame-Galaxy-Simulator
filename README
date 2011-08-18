@@ -1,0 +1,7 @@
+This is a universal gravitation simulator I made in a few hours over the course of a train ride last year.
+I was just curious to see if I could simulate such phenomena as stable orbits and galactic formations.
+Gravity.py is the file that contains the objects and methods. It defines the algorithm for numerically calculating the forces on each object.
+Gravity_crunch.py is the first file you need to run. It will crunch through all the numbers and produce a separate (large) file of pickled data.
+Gravity_run.py is the fun part. It takes the data from the external file and runs through step-by-step, displaying the objects as simple dots using the pygame blit function.
+
+Have fun changing the numbers around in Gravity.py. Different number of objects, different masses, different starting positions. It's all good.
